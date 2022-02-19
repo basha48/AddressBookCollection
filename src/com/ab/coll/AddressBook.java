@@ -13,30 +13,30 @@ public class AddressBook {
 	public void addContact() {
 		
 		System.out.println("First Name :");
-	    person.firstName = sc.nextLine();
-	    
-	    System.out.println("Last Name :");
-	    person.lastName = sc.nextLine();
-	    
-        System.out.println("Address :");
-        person.address = sc.nextLine();
+		person.firstName = sc.nextLine();
 
-        System.out.println("City :");
-        person.city = sc.nextLine();
+		System.out.println("Last Name :");
+		person.lastName = sc.nextLine();
 
-        System.out.println("State :");
-        person.state = sc.nextLine();
+		System.out.println("Address :");
+		person.address = sc.nextLine();
 
-        System.out.println("Zip :");
-        person.zip = sc.nextLine();
+		System.out.println("City :");
+		person.city = sc.nextLine();
 
-        System.out.println("Phone Number :");
-        person.phoneNumber = sc.nextLine();
+		System.out.println("State :");
+		person.state = sc.nextLine();
 
-        System.out.println("Email :");
-        person.email = sc.nextLine();
-    
-        people.add(person);
+		System.out.println("Zip :");
+		person.zip = sc.nextLine();
+
+		System.out.println("Phone Number :");
+		person.phoneNumber = sc.nextLine();
+
+		System.out.println("Email :");
+		person.email = sc.nextLine();
+
+		people.add(person);
 	}
 	
 	 public void editContact()
