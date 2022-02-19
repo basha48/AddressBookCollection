@@ -7,5 +7,6 @@ public class AdressBookMain {
 		addressBook.editContact();
 		addressBook.deleteContact();
 		addressBook.checkDuplicateContact();
+		addressBook.searchByCityOrState();
 	}
 }
