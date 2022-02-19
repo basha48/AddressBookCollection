@@ -8,5 +8,6 @@ public class AdressBookMain {
 		addressBook.deleteContact();
 		addressBook.checkDuplicateContact();
 		addressBook.searchByCityOrState();
+		addressBook.NoOfContactPersons();
 	}
 }
